@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keep notes</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div id="back-drop">
+
+    </div>
+    <div id='home-more'>
+        <p>
+            Kēēp Nøtes
+        </p>
+        <p>
+            Remainders
+        </p>
+
+        <button type="button">Bin</button>
+        <button type="button"> ⚙️ Account settings</button>
+        <button type="button"> ❓ Help and feedback</button>
+
+    </div>
+
+    <div id="binBar">
+        <button type="button"><=</button>
+        <h2>Recylcler <button type="button">Empty bin</button></h2>
+            <ul>
+
+            </ul>
+        </div>
+
+        <div id="add-slide">
+            <div>
+                <button>←</button>
+                <div>
+                    <button>📌</button>
+                    <button>🔔</button>
+                </div>
+            </div>
+            <div>
+                <input type="text" placeholder="Title" autofocus maxlength="20" />
+                <!-- <input type="text" value="Lable"> -->
+                <br>
+                <textarea
+                    wrap="soft"
+                    role="text"
+                    placeholder="Note"
+                    ></textarea>
+            </div>
+            <div id="extra-opt">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div>
+                <span> 🗑 Delete</span>
+                <span> 📤 Send</span>
+                <span> 💾 Make copy</span>
+            </div>
+            <div>
+                <button>+</button>
+                <button>🎨</button>
+                <p>
+                    Edited on: <span></span>
+                </p>
+                <button>⁝</button>
+            </div>
+        </div>
+        <div id="search-bar">
+            <button>⁝</button>
+            <input type="search" placeholder="Search your notes" />
+            <button><p>
+                ◐
+            </p>
+            </button>
+            <div>
+                <img src="default profile.jpeg" alt="" width="24px" height="25px" />
+            </div>
+        </div>
+        <button id="add-btn">+</button>
+        <div id="bottom-bar">
+            <button>☑</button>
+            <button>🖌</button>
+            <button>🎙</button>
+            <button>🖼</button>
+        </div>
+        <ul id="note-list">
+        </ul>
+    </body>
+    <script src="app.js"></script>
+</html>
